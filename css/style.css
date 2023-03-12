@@ -1,6 +1,7 @@
 :root {
   --color1: #88b7e6;
   --color2: #0d7ae7;
+  --color3: #ece8e8;
 }
 
 header {
@@ -93,7 +94,7 @@ footer {
 }
 /* Section About */
 .about {
-  background-color: #eee;
+  background-color: var(--color3);
 }
 .about i {
   font-size: 25px;
@@ -114,6 +115,11 @@ footer {
   height: 3px;
   background-color: var(--color1);
   margin: 15px auto 30px;
+}
+/* Section Why? */
+.why h5 {
+  padding: 50px;
+  border: 3px solid var(--color1);
 }
 /* Color */
 .gh-color1 {

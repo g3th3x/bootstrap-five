@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="css/style.css">
     <script defer src="src/index.js"></script>
+</head>
 
 <body>
     <header>
@@ -18,7 +19,7 @@
             <div class="row">
                 <div class="col-12">
                     <h1 class="text-center text-white">Bootstrap test page</h1>
-                    <div class="gh-play">
+                    <div class="gh-play" data-bs-toggle="modal" data-bs-target="#videoTestModal">
                         <div class="gh-triangle"></div>
                     </div>
                     <a href="#footer" class="btn btn-gh btn-lg text-uppercase">Example</a>
@@ -27,41 +28,6 @@
         </div>
     </header>
 
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, nobis consectetur. Impedit quis inventore ut
-        eaque rem! Reiciendis itaque sint, quis dolor voluptatum molestiae perferendis, ut nostrum facilis rerum
-        voluptate dolorem dolorum at assumenda numquam. Error labore, hic accusamus at placeat non quibusdam corporis,
-        dicta deserunt rem laudantium officiis adipisci! Deleniti illo architecto ea in repudiandae dicta maiores vel
-        numquam iste voluptatem suscipit debitis unde porro tempora pariatur blanditiis vero obcaecati ipsum, quas
-        consequuntur, consequatur omnis? Cupiditate, error aperiam explicabo exercitationem nisi ad cumque architecto
-        magnam voluptatem modi maxime eius excepturi temporibus reprehenderit deleniti recusandae dolores cum laudantium
-        magni, officia pariatur illo velit provident. Cum mollitia, non blanditiis repudiandae modi enim ad consequuntur
-        repellat harum? Illum nobis fuga odit neque autem veniam esse error molestias provident cumque excepturi commodi
-        sapiente, consectetur harum magni quod alias officiis doloremque cum architecto maxime ab! Cupiditate a ducimus
-        nobis odio iste id consequatur quos? Impedit sunt quisquam doloremque illo ipsum repellendus quae quo at magnam.
-        Corporis laboriosam dolor deserunt, voluptas maiores dolores autem velit provident totam expedita perferendis,
-        repellat, inventore quod nobis sit dignissimos! Esse dolore labore quam consequuntur impedit a culpa asperiores
-        reprehenderit dolorum et, similique illum? Ab magni obcaecati deleniti, sed unde vero laudantium rerum minus.
-        Possimus, culpa. Id praesentium accusamus recusandae aperiam esse veniam corrupti nemo illum animi. Sit
-        doloremque maxime voluptatum autem inventore iure vel quasi facilis quibusdam maiores quis laudantium amet
-        error, accusamus odio quos perferendis expedita ad eligendi? Ut saepe ducimus quos nulla. Laboriosam labore
-        accusamus, blanditiis accusantium autem quos, nulla quidem repellendus vitae officia assumenda, rem alias. Sed,
-        ad? Illo aliquid numquam ratione qui corporis mollitia, culpa eius impedit est cumque consequuntur optio omnis
-        ea perferendis blanditiis, fugiat maxime reiciendis at pariatur sit, quidem ab quis ipsa. Enim at hic quis animi
-        cum, praesentium laborum vero minima facilis non sapiente tempore eaque debitis deserunt. Explicabo itaque odit
-        perferendis ea magnam sequi labore nemo facilis, laboriosam dicta reprehenderit, vero nisi possimus atque,
-        aliquam aperiam quis sint iure praesentium obcaecati incidunt. Laborum, exercitationem et dolor optio porro
-        deserunt dolore laboriosam fugit impedit tempora ad possimus quibusdam. Vel ducimus aspernatur corrupti et
-        nesciunt, delectus laudantium similique sapiente maxime sit modi, excepturi voluptatum dolores enim quaerat ad
-        quidem veritatis pariatur. Necessitatibus tempore aliquam ea fuga laboriosam molestias voluptate nobis quas
-        repellendus a, est dolore esse possimus ut? Amet possimus ea ad est labore beatae maiores assumenda iusto illo
-        consequuntur. Sit, quaerat accusantium officia tempore voluptatem architecto hic fugit esse illum velit aperiam
-        doloremque ratione praesentium quisquam nulla! Quod at animi modi adipisci reprehenderit aliquam dolore tenetur,
-        molestiae commodi laboriosam, quisquam vero optio, totam perspiciatis. Quae dicta repellat eveniet id labore
-        quod. Quas fugiat ducimus maiores, voluptatem expedita corrupti animi excepturi exercitationem, omnis
-        necessitatibus repellat harum totam modi, tenetur laboriosam ad aliquam voluptate accusantium incidunt nisi. Hic
-        quam sint animi, illum quidem quisquam atque repudiandae ratione, expedita ipsum eaque esse corporis natus fuga
-        earum. Tempora nobis, explicabo reprehenderit eligendi eum qui beatae quidem incidunt dolores modi
-        exercitationem sit fuga voluptatibus voluptas ratione!</div>
     <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus provident dolores unde molestiae pariatur
         voluptatum vel porro laborum eaque officiis. Qui placeat enim reprehenderit ratione ducimus non deleniti ipsam
         illum soluta recusandae, quibusdam eligendi esse odio, culpa iusto blanditiis commodi beatae sint dolor dicta
@@ -275,6 +241,23 @@
     <footer id="footer">
 
     </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="videoTestModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal video test</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed//6t6SvMGubts'
+                            frameborder='0' allowfullscreen></iframe></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <script src="src/bootstrap.bundle.min.js"></script>
 </body>

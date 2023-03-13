@@ -109,7 +109,8 @@ footer {
 /* Section About */
 .about,
 .accordion,
-.developer {
+.developer,
+.donate {
   background-color: var(--color3);
 }
 .about i {

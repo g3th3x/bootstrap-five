@@ -1,7 +1,8 @@
 :root {
   --color1: #88b7e6;
   --color2: #0d7ae7;
-  --color3: #ece8e8;
+  --color3: #073869;
+  --color4: #ece8e8;
 }
 
 header {
@@ -9,7 +10,7 @@ header {
 }
 
 footer {
-  padding: 100px 0;
+  padding: 30px 0;
 }
 
 section {
@@ -106,17 +107,20 @@ footer {
   width: 100%;
   height: 100%;
 }
+
 /* Section About */
 .about,
 .accordion,
 .developer,
 .donate {
-  background-color: var(--color3);
+  background-color: var(--color4);
 }
+
 .about i {
   font-size: 25px;
   color: var(--color2);
 }
+
 .gh-circle {
   margin: 0 auto 15px;
   width: 70px;
@@ -127,54 +131,63 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
 .gh-line {
   width: 100px;
   height: 3px;
   background-color: var(--color1);
   margin: 15px auto 30px;
 }
+
 /* Section Why? */
 .why h5 {
   padding: 50px;
   border: 3px solid var(--color1);
 }
+
 /* Section accordion */
 .accordion-button:not(.collapsed) {
-  color: var(--color3);
+  color: var(--color4);
   background-color: var(--color2);
 }
+
 .accordion {
   --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
+
 /* Section More */
 .more h5 {
   padding: 25px;
   border: 3px solid var(--color2);
 }
+
 /* Section Developer */
 .developer {
   padding-bottom: 0;
 }
+
 .gh-img-developer {
   max-width: 250px;
 }
+
 /* Section Reviews */
 .gh-img-client {
   margin: 0 auto 15px;
   width: 100px;
   height: 100px;
-  border: 3px solid var(--color2);
+  border: 3px solid var(--color3);
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #d2e3f5;
 }
+
 .gh-img-client:hover {
   margin: 0 auto 15px;
   width: 100px;
   height: 100px;
-  border: 3px solid var(--color2);
+  border: 3px solid var(--color3);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -182,13 +195,18 @@ footer {
   opacity: 75%;
   cursor: pointer;
 }
-/* Color */
+
+/* Colors */
 .gh-color1 {
   color: var(--color1);
 }
 
 .gh-color2 {
   color: var(--color2);
+}
+
+.gh-color3 {
+  color: var(--color3);
 }
 
 .gh-bg1 {
